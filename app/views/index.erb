@@ -1,0 +1,18 @@
+
+<% @posts.each do |post| %>
+    <div>
+      <p><%= post.name %><p>
+      <p> <%= post.content %><p>
+    </div>
+<% end %>
+
+
+
+<!--
+<select>
+
+ <% @posts.each do |post| %>
+  <option value="<%=post.name%>"> <%=post.name%> </option>
+  <% end %>
+
+</select> -->
